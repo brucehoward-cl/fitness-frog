@@ -97,7 +97,7 @@ namespace Treehouse.FitnessFrog.Controllers
             {
                 _entriesRepository.UpdateEntry(entry);
 
-                return RedirectToAction("Indes");
+                return RedirectToAction("Index");
             }
 
             SetupActivitiesSelectListItems();
